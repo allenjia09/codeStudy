@@ -1,0 +1,19 @@
+.todoListCard {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inputSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inputSection > *:first-child {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.todoList {
+  max-height: 400px;
+  overflow-y: auto;
+}

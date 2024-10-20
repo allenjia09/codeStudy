@@ -1,0 +1,10 @@
+.bmiCard {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}

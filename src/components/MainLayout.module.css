@@ -1,0 +1,68 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 20px !important;
+  height: 64px !important;
+  line-height: 64px !important;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+  margin-right: 16px;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #1890ff;
+}
+
+.menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu :global(.ant-menu) {
+  background: transparent !important;
+  border-bottom: none !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu :global(.ant-menu-item) {
+  padding: 0 15px !important;
+  margin: 0 5px !important;
+}
+
+.menu :global(.ant-menu-item::after) {
+  display: none !important;
+}
+
+.menu :global(.ant-menu-item-selected) {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.content {
+  padding: 0;
+}
+
+.contentInner {
+  background: #fff;
+  min-height: calc(100vh - 64px);  /* 减去header的高度 */
+  margin-top: 0;
+}

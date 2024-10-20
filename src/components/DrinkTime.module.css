@@ -1,0 +1,33 @@
+.drinkTimeCard {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.playerList {
+  margin-bottom: 20px;
+}
+
+.playerTag {
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.controls > * {
+  flex: 1;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.actionButtons > * {
+  flex: 1;
+}

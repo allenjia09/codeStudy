@@ -1,0 +1,22 @@
+.countdownCard {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputSection {
+  margin-bottom: 20px;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.countdownDisplay {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
